@@ -1,0 +1,10 @@
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\bin\Debug\LoginRegister.exe.config
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\bin\Debug\LoginRegister.exe
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\bin\Debug\LoginRegister.pdb
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\obj\Debug\LoginRegister.csprojResolveAssemblyReference.cache
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\obj\Debug\LoginRegister.Form1.resources
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\obj\Debug\LoginRegister.Properties.Resources.resources
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\obj\Debug\LoginRegister.csproj.GenerateResource.cache
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\obj\Debug\LoginRegister.csproj.CoreCompileInputs.cache
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\obj\Debug\LoginRegister.exe
+c:\users\amrah\source\repos\LoginRegister\LoginRegister\obj\Debug\LoginRegister.pdb
