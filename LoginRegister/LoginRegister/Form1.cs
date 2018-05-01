@@ -17,7 +17,7 @@ namespace LoginRegister
             InitializeComponent();
         }
         List<User> users = new List<User>();
-
+        int userId = 0;
         private void btnRegister_Click(object sender, EventArgs e)
         {
             if(!string.IsNullOrWhiteSpace(txtUserName.Text)
@@ -37,6 +37,8 @@ namespace LoginRegister
                         }
                     }
                     User user = new User();
+                    userId++;
+                    user.Id = userId;
                     user.Name = txtUserName.Text;
                     user.Password = txtPassword.Text;
                     users.Add(user);
@@ -47,7 +49,7 @@ namespace LoginRegister
                     dgwUser.Rows[users.Count-1].Cells[0].Value = user.Name;
                     dgwUser.Rows[users.Count - 1].Cells[1].Value = user.Password;
 
-                    MessageBox.Show( user.Name+" siz müvəffəqiyyətlə qeydiyyatdan keçdiniz.");
+                    MessageBox.Show(user.Name+" siz müvəffəqiyyətlə qeydiyyatdan keçdiniz.");
                     
 
 
@@ -73,7 +75,10 @@ namespace LoginRegister
                 {
                     if(us.Name == txtUserNameLogin.Text && us.Password == txtPasswordLogin.Text)
                     {
-                        MessageBox.Show("Siz siz sistemə daxil oldunuz");
+                        MainMenu mainMenu = new MainMenu();
+                        mainMenu.Show();
+                        this.Hide();
+
                         ClearPassword();
                         ClearUsername();
                         return;
